@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        li,
+        a,
+        button {
+            font-weight: 500;
+            font-size: 16px;
+            color: #edf0f1;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5%;
+            background-color: #24252A;
+            width: 100%;
+            position: fixed;
+            font-size: 2em;
+
+
+
+        }
+
+        .nav_links {
+            list-style: none;
+        }
+
+        .nav_links li {
+            display: inline-block;
+            padding: 0px 20px;
+        }
+
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+        }
+
+        .nav_links li a:hover {
+            color: #008890;
+        }
+
+        button {
+            padding: 9px 25px;
+            border: none;
+            border-radius: 50px;
+            background-color: rgba(0, 136, 169, 1);
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+
+        button:hover {
+            background-color: rgba(0, 136, 169, 0.8);
+
+        }
+
+        nav {
+            display: block;
+            background-color: #24252A;
+        }
+
+        .scroll-container {
+            display: block;
+        }
+
+        .scroll-page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+        }
+        html{
+            scroll-behavior: smooth;
+
+        }
+     @media (max-width: 600px){
+         a{
+             width: 100%;
+             margin-left: 30vw ;
+         }
+        /* .cta{
+            width: 100%;
+            margin-top: 140px;
+            margin-left: -170px;
+        } */
+     }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#home" >HOME</a></li>
+                    <li><a href="#about" >About_us</a></li>
+                    <li><a href="#secvice" >services</a></li>
+                    <li><a href="#contact" >contact</a></li>
+
+                </ul>
+            </nav>
+            <!-- <a href="#contact" target="contact"><div class="cta"><button >contactUs</button></a></div> -->
+        </header>
+
+
+
+        <p></p>
+        <div class="scroll-container">
+            <iframe class="scroll-page" id="home" src="home.html"  width="100%" height="800" style="border:none; ">
+            </iframe>
+
+            <p></p>
+            <iframe class="scroll-page" id="about" src="Aboutus.html" width="100%" height="800" style="border:none;">
+            </iframe>
+
+            <p></p>
+            <iframe class="scroll-page" id="secvice" src="services.html" width="100%" height="800" style="border:none;">
+            </iframe>
+
+            <iframe class="scroll-page" id="contact" src="contactus.html" width="100%" height="720" style="border:none;">
+            </iframe>
+        </div>
+
+    </body>
+</body>
+
+</html>

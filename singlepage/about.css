@@ -1,0 +1,132 @@
+.phtext {
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    top: 35%;
+    left: 32%;
+    display:block;
+    font: 1em sans-serif;
+    padding-top: 8px;
+
+
+}
+.row {
+    position: relative;
+    justify-content:space-between;
+    display: flex;
+    padding: 5%;
+    margin: 5%;
+    font: 1em sans-serif;
+}
+div {
+    display: block;
+}
+/* body {
+    background: #f9fafb;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   margin: 0%;
+    background-color: aliceblue;
+} */
+.p{
+    justify-content: center;
+    text-align: center;
+    font: 1em sans-serif;
+
+}
+/* .img1{
+    width: 100%;
+    height: 600px;
+    position:sticky;
+    display:inline;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    color: black;
+    font-family: 'cookie', cursive;
+}
+
+.banner {
+    width: 100%;
+    height: 60px;
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+} */
+
+/* .nav {
+    width: 100%;
+    background-color: rgb(88, 150, 192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 22px;
+
+}
+
+.nav b {
+    font-size: 3em;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 50%;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow:#3b3537;
+    transition-duration: .5s;
+    ;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #3b3537;
+    font-weight: bolder;
+    transition-duration: .5s;
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+}
+
+body {
+    background-color: aliceblue;
+
+}
+#texts {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.content {
+    border:  solid;
+    padding: 9px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    justify-content:space-around;
+    background-color:lightskyblue;
+    border: none;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 30%);
+    border-radius: 15px;
+} */
+
